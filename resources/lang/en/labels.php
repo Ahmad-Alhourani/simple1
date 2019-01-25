@@ -112,7 +112,32 @@ return [
 
                 'view' => 'View User'
             ]
+        ],
+
+        //start_Test1_start
+        'test1s' => [
+            'management' => ' Test1S Management',
+            'create' => 'Create Test1',
+            'view' => 'View Test1',
+            'edit' => 'Edit Test1',
+
+            'table' => [
+                'id' => "Id",
+                'name' => "Name",
+                'l_name' => "Last Name",
+                'email' => "Email",
+                'sms' => "SMS",
+                'sort' => 'Sort',
+                'total' => ' Test1S total| Test1S total'
+            ],
+
+            'content' => [
+                'created_at' => 'Created At',
+                'deleted_at' => 'Deleted At',
+                'last_updated' => 'Last Update'
+            ]
         ]
+        //end_Test1_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

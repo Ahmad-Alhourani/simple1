@@ -12,6 +12,12 @@
 
         
 
+        {{--start_Test1_start--}}
+            <li class="nav-item">
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/test1s')) }}" href=" {{ route('admin.test1.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.test1s') }}</a>
+            </li>
+            {{--end_Test1_end--}}
+
 {{--Do not delete me :) I'm used for auto-generation--}}
 
             <li class="nav-title">

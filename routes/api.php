@@ -16,4 +16,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+//start_Test1_start
+Route::resource('test1', 'API\Test1APIController');
+
+//end_Test1_end
+
 //*****Do Not Delete Me

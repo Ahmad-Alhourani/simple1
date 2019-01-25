@@ -46,10 +46,24 @@ return [
             'dashboard' => 'Dashboard',
             'general' => 'General',
             'history' => 'History',
-            'system' => 'System'
+            'system' => 'System',
 
+            //begin_Test1_begin
+            'test1s' => ' Test1S'
+            //finish_Test1_finish
             // **********Do_Not_Delete_me****************
+        ],
+
+        //start_Test1_start
+        'test1s' => [
+            'view' => 'View Test1',
+            'all' => 'All  Test1S',
+            'create' => 'Create Test1',
+            'edit' => 'Edit Test1',
+            'management' => 'Test1 Management',
+            'main' => ' Test1S'
         ]
+        //end_Test1_end
 
         // Do not delete me :) I'm used for auto-generation
     ],
