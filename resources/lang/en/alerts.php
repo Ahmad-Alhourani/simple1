@@ -42,15 +42,7 @@ return [
         'contact' => [
             'sent' =>
                 'Your information was successfully sent. We will respond back to the e-mail provided as soon as we can.'
-        ],
-
-        //start_Test_start
-        'test' => [
-            'saved' => 'Test saved successfully.',
-            'updated' => 'Test updated successfully.',
-            'deleted' => 'Test deleted successfully.'
         ]
-        //end_Test_end
 
         // Do not delete me :) I'm used for auto-generation
     ]
