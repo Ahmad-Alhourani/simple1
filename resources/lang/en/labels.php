@@ -114,12 +114,12 @@ return [
             ]
         ],
 
-        //start_Test_start
-        'tests' => [
-            'management' => ' Tests Management',
-            'create' => 'Create Test',
-            'view' => 'View Test',
-            'edit' => 'Edit Test',
+        //start_Test1_start
+        'test1s' => [
+            'management' => ' Test1S Management',
+            'create' => 'Create Test1',
+            'view' => 'View Test1',
+            'edit' => 'Edit Test1',
 
             'table' => [
                 'id' => "Id",
@@ -128,7 +128,7 @@ return [
                 'email' => "Email",
                 'sms' => "SMS",
                 'sort' => 'Sort',
-                'total' => ' Tests total| Tests total'
+                'total' => ' Test1S total| Test1S total'
             ],
 
             'content' => [
@@ -137,7 +137,7 @@ return [
                 'last_updated' => 'Last Update'
             ]
         ]
-        //end_Test_end
+        //end_Test1_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

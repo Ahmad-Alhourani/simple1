@@ -1,12 +1,12 @@
 <?php
 namespace App\Repositories\Backend;
 
-use App\Models\Test;
+use App\Models\Test1;
 use App\Repositories\BaseRepository;
 use Prettus\Repository\Contracts\CacheableInterface;
 use Prettus\Repository\Traits\CacheableRepository;
 
-class TestRepository extends BaseRepository implements CacheableInterface
+class Test1Repository extends BaseRepository implements CacheableInterface
 {
     use CacheableRepository;
 
@@ -20,7 +20,7 @@ class TestRepository extends BaseRepository implements CacheableInterface
      **/
     public function model()
     {
-        return Test::class;
+        return Test1::class;
     }
 
     public function getPaginated($paged = 25, $condions_array = null)

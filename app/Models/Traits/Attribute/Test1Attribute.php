@@ -3,29 +3,29 @@
 namespace App\Models\Traits\Attribute;
 
 /**
- * Trait TestAttribute.
+ * Trait Test1Attribute.
  */
-trait TestAttribute
+trait Test1Attribute
 {
     /**
-     * @return   test
+     * @return   test1
      */
     public function getViewButtonAttribute()
     {
         return '<a href="' .
-            route('admin.test.show', $this) .
+            route('admin.test1.show', $this) .
             '" data-toggle="tooltip" data-placement="top" title="' .
             __('buttons.general.crud.view') .
             '" class="btn btn-info"><i class="fas fa-eye"></i></a>';
     }
 
     /**
-     * @return string  test
+     * @return string  test1
      */
     public function getEditButtonAttribute()
     {
         return '<a href="' .
-            route('admin.test.edit', $this) .
+            route('admin.test1.edit', $this) .
             '" data-toggle="tooltip" data-placement="top" title="' .
             __('buttons.general.crud.edit') .
             '" class="btn btn-primary"><i class="fas fa-edit"></i></a>';
@@ -37,7 +37,7 @@ trait TestAttribute
     public function getDeleteButtonAttribute()
     {
         return '<a href="' .
-            route('admin.test.destroy', $this) .
+            route('admin.test1.destroy', $this) .
             '"
 			 data-method="delete"
 			 data-trans-button-cancel="' .
@@ -60,7 +60,7 @@ trait TestAttribute
     public function getActionButtonsAttribute()
     {
         return '<div
-       class="btn-group btn-group-sm" test="group" aria-label="Test Actions">
+       class="btn-group btn-group-sm" test1="group" aria-label="Test1 Actions">
 	   		 ' .
             $this->view_button .
             '

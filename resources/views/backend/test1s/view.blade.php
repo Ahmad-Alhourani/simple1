@@ -3,51 +3,51 @@
 
        
             <div class="form-group row">
-            {{ html()->label(__('validation.attributes.backend.tests.id'))->class('col-md-2 form-control-label')->for('id') }}
+            {{ html()->label(__('validation.attributes.backend.test1s.id'))->class('col-md-2 form-control-label')->for('id') }}
             <div class="col-md-10">
        
 
-                {{ $test->id }}
+                {{ $test1->id }}
 
             </div><!--col-->
          </div><!--form-group-->
          
             <div class="form-group row">
-            {{ html()->label(__('validation.attributes.backend.tests.name'))->class('col-md-2 form-control-label')->for('name') }}
+            {{ html()->label(__('validation.attributes.backend.test1s.name'))->class('col-md-2 form-control-label')->for('name') }}
             <div class="col-md-10">
        
 
-                {{ $test->name }}
+                {{ $test1->name }}
 
             </div><!--col-->
          </div><!--form-group-->
          
             <div class="form-group row">
-            {{ html()->label(__('validation.attributes.backend.tests.l_name'))->class('col-md-2 form-control-label')->for('l_name') }}
+            {{ html()->label(__('validation.attributes.backend.test1s.l_name'))->class('col-md-2 form-control-label')->for('l_name') }}
             <div class="col-md-10">
        
 
-                {{ $test->l_name }}
+                {{ $test1->l_name }}
 
             </div><!--col-->
          </div><!--form-group-->
          
             <div class="form-group row">
-            {{ html()->label(__('validation.attributes.backend.tests.email'))->class('col-md-2 form-control-label')->for('email') }}
+            {{ html()->label(__('validation.attributes.backend.test1s.email'))->class('col-md-2 form-control-label')->for('email') }}
             <div class="col-md-10">
        
 
-                {{ $test->email }}
+                {{ $test1->email }}
 
             </div><!--col-->
          </div><!--form-group-->
          
             <div class="form-group row">
-            {{ html()->label(__('validation.attributes.backend.tests.sms'))->class('col-md-2 form-control-label')->for('sms') }}
+            {{ html()->label(__('validation.attributes.backend.test1s.sms'))->class('col-md-2 form-control-label')->for('sms') }}
             <div class="col-md-10">
        
 
-                {{ $test->sms }}
+                {{ $test1->sms }}
 
             </div><!--col-->
          </div><!--form-group-->

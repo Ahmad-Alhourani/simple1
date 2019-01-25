@@ -1,6 +1,6 @@
 @extends('backend.layouts.app')
 
-@section('title', app_name() . ' | ' . __('strings.backend.tests.title'))
+@section('title', app_name() . ' | ' . __('strings.backend.test1s.title'))
 
 
 @section('content')
@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-sm-5">
                     <h4 class="card-title mb-0">
-                        {{ __('labels.backend.tests.management') }}
+                        {{ __('labels.backend.test1s.management') }}
                     </h4>
                 </div><!--col-->
 
@@ -20,24 +20,24 @@
                 </div><!--col-->
 
                 <div class="col-sm-3 pull-right">
-                    @include('backend.tests.includes.header-buttons')
+                    @include('backend.test1s.includes.header-buttons')
                 </div><!--col-->
             </div><!--row-->
 
             <div class="row mt-4">
                 <div class="col">
-                    @include('backend.tests.table')
+                    @include('backend.test1s.table')
                 </div><!--col-->
             </div><!--row-->
             <div class="row">
                 <div class="col-7">
                     <div class="float-left">
-                        @if(isset($part)){{ $part}} from  @endif  {!! $tests->total() !!} {{ trans_choice('labels.backend.tests.table.total', $tests->total()) }}
+                        @if(isset($part)){{ $part}} from  @endif  {!! $test1s->total() !!} {{ trans_choice('labels.backend.test1s.table.total', $test1s->total()) }}
                     </div>
                 </div><!--col-->
                 <div class="col-5">
                     <div class="float-right">
-                        {!! $tests->render() !!}
+                        {!! $test1s->render() !!}
                     </div>
                 </div><!--col-->
             </div><!--row-->

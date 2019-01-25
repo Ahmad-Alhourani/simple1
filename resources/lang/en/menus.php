@@ -48,22 +48,22 @@ return [
             'history' => 'History',
             'system' => 'System',
 
-            //begin_Test_begin
-            'tests' => ' Tests'
-            //finish_Test_finish
+            //begin_Test1_begin
+            'test1s' => ' Test1S'
+            //finish_Test1_finish
             // **********Do_Not_Delete_me****************
         ],
 
-        //start_Test_start
-        'tests' => [
-            'view' => 'View Test',
-            'all' => 'All  Tests',
-            'create' => 'Create Test',
-            'edit' => 'Edit Test',
-            'management' => 'Test Management',
-            'main' => ' Tests'
+        //start_Test1_start
+        'test1s' => [
+            'view' => 'View Test1',
+            'all' => 'All  Test1S',
+            'create' => 'Create Test1',
+            'edit' => 'Edit Test1',
+            'management' => 'Test1 Management',
+            'main' => ' Test1S'
         ]
-        //end_Test_end
+        //end_Test1_end
 
         // Do not delete me :) I'm used for auto-generation
     ],

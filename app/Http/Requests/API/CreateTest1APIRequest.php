@@ -1,10 +1,11 @@
 <?php
 
 namespace App\Http\Requests\API;
-use App\Models\Test;
+
+use App\Models\Test1;
 use InfyOm\Generator\Request\APIRequest;
 
-class UpdateTestAPIRequest extends APIRequest
+class CreateTest1APIRequest extends APIRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -23,6 +24,6 @@ class UpdateTestAPIRequest extends APIRequest
      */
     public function rules()
     {
-        return []; // Test::$rules;
+        return []; // Test1::$rules;
     }
 }

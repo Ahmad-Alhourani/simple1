@@ -10,11 +10,13 @@
             </li>
 
 
-        {{--start_Test_start--}}
+        
+
+        {{--start_Test1_start--}}
             <li class="nav-item">
-                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/tests')) }}" href=" {{ route('admin.test.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.tests') }}</a>
+                <a class="nav-link {{ active_class(Active::checkUriPattern('admin/test1s')) }}" href=" {{ route('admin.test1.index') }}"><i class="icon-list"></i> {{ __('menus.backend.sidebar.test1s') }}</a>
             </li>
-            {{--end_Test_end--}}
+            {{--end_Test1_end--}}
 
 {{--Do not delete me :) I'm used for auto-generation--}}
 

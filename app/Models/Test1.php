@@ -3,7 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use App\Models\Traits\Attribute\TestAttribute;
+use App\Models\Traits\Attribute\Test1Attribute;
 use Sofa\Eloquence\Eloquence;
 use Sofa\Eloquence\Metable;
 use Spatie\Sluggable\HasSlug;
@@ -13,10 +13,10 @@ use Iatstuti\Database\Support\CascadeSoftDeletes;
 use Kyslik\ColumnSortable\Sortable;
 use Storage;
 
-class Test extends Model
+class Test1 extends Model
 {
     use Sortable,
-        TestAttribute,
+        Test1Attribute,
         Eloquence,
         Metable,
         SoftDeletes,
@@ -65,7 +65,7 @@ class Test extends Model
      *
      * @var string
      */
-    protected $table = 'tests';
+    protected $table = 'test1s';
 
     /**
      * Get the key name for route model binding.

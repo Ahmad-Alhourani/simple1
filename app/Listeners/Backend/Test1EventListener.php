@@ -2,19 +2,19 @@
 namespace App\Listeners\Backend;
 
 /**
- * Class TestEventListener.
+ * Class Test1EventListener.
  */
 /**
- * Class TestCreated.
+ * Class Test1Created.
  */
-class TestEventListener
+class Test1EventListener
 {
     /**
      * @param $event
      */
     public function onCreated($event)
     {
-        \Log::info('Test Created');
+        \Log::info('Test1 Created');
     }
 
     /**
@@ -22,7 +22,7 @@ class TestEventListener
      */
     public function onUpdated($event)
     {
-        \Log::info('Test  Updated');
+        \Log::info('Test1  Updated');
     }
 
     /**
@@ -30,7 +30,7 @@ class TestEventListener
      */
     public function onDeleted($event)
     {
-        \Log::info('Test Deleted');
+        \Log::info('Test1 Deleted');
     }
 
     /**
@@ -41,18 +41,18 @@ class TestEventListener
     public function subscribe($events)
     {
         $events->listen(
-            \App\Events\Backend\Test\TestCreated::class,
-            'App\Listeners\Backend\TestEventListener@onCreated'
+            \App\Events\Backend\Test1\Test1Created::class,
+            'App\Listeners\Backend\Test1EventListener@onCreated'
         );
 
         $events->listen(
-            \App\Events\Backend\Test\TestUpdated::class,
-            'App\Listeners\Backend\TestEventListener@onUpdated'
+            \App\Events\Backend\Test1\Test1Updated::class,
+            'App\Listeners\Backend\Test1EventListener@onUpdated'
         );
 
         $events->listen(
-            \App\Events\Backend\Test\TestDeleted::class,
-            'App\Listeners\Backend\TestEventListener@onDeleted'
+            \App\Events\Backend\Test1\Test1Deleted::class,
+            'App\Listeners\Backend\Test1EventListener@onDeleted'
         );
     }
 }

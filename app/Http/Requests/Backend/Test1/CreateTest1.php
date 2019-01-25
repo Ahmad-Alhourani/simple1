@@ -1,11 +1,11 @@
 <?php
-namespace App\Http\Requests\Backend\Test;
+namespace App\Http\Requests\Backend\Test1;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Validation\Rule;
 
-class UpdateTest extends FormRequest
+class CreateTest1 extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -16,7 +16,7 @@ class UpdateTest extends FormRequest
     public function authorize()
     {
         return true;
-        //   return Gate::allows('admin.test.edit', $this->test);
+        //   return Gate::allows('admin.test1.edit', $this->test1);
     }
 
     /**
