@@ -49,8 +49,11 @@ return [
             'system' => 'System',
 
             //begin_Test1_begin
-            'test1s' => ' Test1S'
+            'test1s' => ' Test1S',
             //finish_Test1_finish
+            //begin_Test_begin
+            'tests' => ' Tests'
+            //finish_Test_finish
             // **********Do_Not_Delete_me****************
         ],
 
@@ -62,8 +65,19 @@ return [
             'edit' => 'Edit Test1',
             'management' => 'Test1 Management',
             'main' => ' Test1S'
-        ]
+        ],
         //end_Test1_end
+
+        //start_Test_start
+        'tests' => [
+            'view' => 'View Test',
+            'all' => 'All  Tests',
+            'create' => 'Create Test',
+            'edit' => 'Edit Test',
+            'management' => 'Test Management',
+            'main' => ' Tests'
+        ]
+        //end_Test_end
 
         // Do not delete me :) I'm used for auto-generation
     ],
